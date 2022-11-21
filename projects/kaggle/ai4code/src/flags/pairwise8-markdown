@@ -1,0 +1,14 @@
+--pairwise
+--scheduler=linear
+--multi_lr 
+--loss_method=softmax 
+--pooling=latt
+--seq_encoder
+--rnn_bi
+--ep=6 
+--encode_code_info
+--encode_markdown_info
+--encode_all_info
+--max_len=192 
+--add_end_source  
+--pairwise_markdowns

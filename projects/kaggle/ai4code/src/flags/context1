@@ -1,0 +1,10 @@
+--use_context 
+--n_context=30
+--grad_acc=2 
+--ep=9 
+--loss_method=mae  
+--scheduler=linear 
+--multi_lr
+--seq_encoder  
+--rnn_bi  
+

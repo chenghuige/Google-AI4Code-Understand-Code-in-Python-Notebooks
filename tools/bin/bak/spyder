@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f 
+set timeout 1 
+spawn sudo /usr/local/bin/spyder & 
+expect "*assword:*"  
+send "run\r"  
+expect eof
+interact  

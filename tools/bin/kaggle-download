@@ -1,0 +1,1 @@
+kaggle datasets download -d goldenlock/$1

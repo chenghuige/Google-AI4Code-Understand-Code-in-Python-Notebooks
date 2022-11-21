@@ -1,0 +1,4 @@
+--use_context=0
+--pooling=cls 
+--seq_encoder=0  
+

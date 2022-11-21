@@ -1,0 +1,1 @@
+/home/forum/lamp/mysql5/bin/mysql  -uroot -proot evaluation-pf -N -e "select epf_post_dict.*, task_type from epf_post_dict inner join epf_task on epf_post_dict.task_id = epf_task.task_id having task_id > $1 and not (dict_id = 1 or dict_id = 37 or dict_id = 0) order by task_id desc" > pv.spam.pids 

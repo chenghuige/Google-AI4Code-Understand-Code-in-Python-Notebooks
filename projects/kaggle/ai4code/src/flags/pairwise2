@@ -1,0 +1,5 @@
+--pairwise
+--loss_method=softmax 
+--pooling=latt
+--seq_encoder=0  
+

@@ -1,0 +1,2 @@
+pwd > path.txt
+kaggle datasets create -p . --dir-mode zip

@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f 
+set timeout 1 
+spawn sudo mount -t cifs //cq01-rdqa-dev076.cq01.baidu.com/chenghuige /home/users/chenghuige -o username=chenghuige,password=run,file_mode=0777,dir_mode=0777,uid=gezi
+expect "*assword:*"  
+send "run\r"  
+expect eof
+interact 

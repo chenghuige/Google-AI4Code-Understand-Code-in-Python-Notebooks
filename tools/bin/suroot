@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f 
+set timeout 1 
+spawn sudo -s -H  
+expect "*assword:*"  
+send "run\r"  
+expect eof
+interact  

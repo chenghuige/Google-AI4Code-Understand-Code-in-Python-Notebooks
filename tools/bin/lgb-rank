@@ -1,0 +1,1 @@
+/home/users/chenghuige/rsc/app/search/sep/anti-spam/melt-train/tools/melt $* -cl lightgbm --rank=1 > lightgbm.log 

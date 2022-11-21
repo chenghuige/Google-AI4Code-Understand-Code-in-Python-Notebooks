@@ -1,0 +1,10 @@
+--pairwise
+--scheduler=linear
+--multi_lr 
+--loss_method=softmax 
+--pooling=latt
+--seq_encoder
+--rnn_bi
+--ep=6 
+--max_len=192 
+

@@ -1,0 +1,12 @@
+--scheduler=linear
+--lr=5e-5
+--ep=6
+--bs=64
+--folds=5
+--lm_max_len=512
+--lm_line_by_line 
+--dynamic_line_by_line
+--lm_balance 
+--hug=all-mpnet-base-v2 
+--pretrain=all-mpnet-base-v2.flag-emlm
+

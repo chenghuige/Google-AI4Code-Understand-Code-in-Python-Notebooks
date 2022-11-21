@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f 
+set timeout 1 
+spawn sudo /usr/local/netbeans-7.4beta/bin/netbeans --fontsize 22 &
+expect "*assword:*"  
+send "run\r"  
+expect eof
+interact  

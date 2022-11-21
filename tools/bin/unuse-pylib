@@ -1,0 +1,3 @@
+source ~/.bashrc
+export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:/home/gezi/python/:/home/gezi/python/lib:/usr/local/cuda/lib64
+mv /home/gezi/python/lib /home/gezi/python/lib.bak

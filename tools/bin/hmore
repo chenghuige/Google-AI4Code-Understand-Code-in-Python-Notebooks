@@ -1,0 +1,2 @@
+hadoop fs -cat $1/part-00000 |  more
+hadoop fs -cat $1/part-00000.lzo |  lzop -dc | more

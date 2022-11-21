@@ -1,0 +1,11 @@
+--scheduler=linear
+--lr=7e-5
+--ep=20
+--bs=64
+--acc_steps=2
+--folds=5
+--lm_max_len=512
+--lm_line_by_line 
+--dynamic_line_by_line
+--lm_balance 
+--hug=all-mpnet-base-v2

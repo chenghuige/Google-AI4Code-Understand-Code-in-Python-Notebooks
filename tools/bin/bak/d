@@ -1,0 +1,30 @@
+#!/usr/bin/expect -f  
+set dpass [lrange $argv 0 0]  
+set user chenghuige  
+set host relay01.baidu.com 
+set password 1229$dpass
+set user2 chenghuige 
+set host2 cq01-rdqa-dev076.cq01.baidu.com
+set password2 newchg
+set timeout 1
+  
+spawn luit -encoding gbk ssh $user@$host  
+#spawn ssh $user@$host
+expect "*CODE:*"  
+send "$password\r"  
+expect "*$"
+expect eof
+send "ssh $user2@$host2\r"
+expect "*assword:*"
+send_user "eof"
+send_user "eof"
+send_user "eof"
+send_user "eof"
+send_user "eof"
+send_user "eof"
+send "$password2\r"
+expect eof
+send "clear\r"
+send "s\r"
+expect eof
+interact

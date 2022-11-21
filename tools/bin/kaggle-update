@@ -1,0 +1,3 @@
+pwd > path.txt
+a=`pwd`
+kaggle datasets version -p . --dir-mode zip -m "$a"

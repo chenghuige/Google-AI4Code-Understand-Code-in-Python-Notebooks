@@ -1,0 +1,5 @@
+--use_context=0
+--pooling=cls 
+--seq_encoder=0  
+--max_len=256
+--last_tokens=64

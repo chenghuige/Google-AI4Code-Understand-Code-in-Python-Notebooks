@@ -1,0 +1,6 @@
+for (( i=0; i<5; i++ ))
+do
+  python ./main.py --allnew --fold=$i $*
+done
+python ./main.py --allnew --online $*
+

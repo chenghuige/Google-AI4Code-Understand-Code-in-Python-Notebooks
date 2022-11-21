@@ -1,0 +1,10 @@
+fuser -v /dev/nvidia*
+pmap -d 103767
+sudo fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sudo sh
+fuser -v /dev/nvidia*
+nvidia-smi
+fuser -v /dev/nvidia*
+pmap -d 103767
+sudo fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sudo sh
+fuser -v /dev/nvidia*
+nvidia-smi

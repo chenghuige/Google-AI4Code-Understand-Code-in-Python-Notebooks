@@ -1,0 +1,2 @@
+#jupyter-lab --allow-root $*
+jupyter notebook --allow-root $*
